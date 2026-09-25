@@ -17,6 +17,7 @@ Repositorio de talleres y laboratorios del curso **Diseño de Datos y Algoritmos
 | [Semana 4](./Semana4) | Programación dinámica — cambio de monedas (proyecto ODS) | [`Lab_Semana4_ExtasysCode.ipynb`](./Semana4/Lab_Semana4_ExtasysCode.ipynb) |
 | [Laboratorio de estructuras lineales](<./Laboratorio de estructuras lineales>) | Sistema de atención de tienda con colas y pilas (FIFO/LIFO) | [`Laboratorio_de_estructuras_lineales.ipynb`](<./Laboratorio de estructuras lineales/Laboratorio_de_estructuras_lineales.ipynb>) |
 | [dev-pr-dynamic](./dev-pr-dynamic) | Programación dinámica — crecimiento de suscriptores (memoización) | [`apps_suscriptores.ipynb`](./dev-pr-dynamic/apps_suscriptores.ipynb) |
+| [Semana 8](./Semana-8) | Árboles binarios — BST y AVL para organización de códigos de productos | [`Arboles-binarios (Extasys code).ipynb`](<./Semana-8/Arboles-binarios (Extasys code).ipynb>) |
 
 ## Metodología de los laboratorios
 
