@@ -1,0 +1,8 @@
+Entrega de parcial practico tercio 2- Santiago Lugo Gomez.
+En esta rama se vera:
+1. Realizar commits con mensajes claros.
+2. Subir la rama al repositorio remoto.
+3. Crear un Pull Request desde parcial-grafos-red-transporte hacia main.
+4. Incluir una descripción detallada del trabajo y pantallazos del sistema funcionando.
+5. Realizar el Merge del Pull Request hacia main.
+6. Entregar el enlace del Pull Request
