@@ -1,0 +1,9 @@
+Parcial practico Santiago Lugo y Alejandro Peña tercio-2
+Donde se tendrán en cuenta las siguientes recomendaciones y seran aplicadas:
+Al finalizar, deberá:
+1. Realizar commits con mensajes claros.
+2. Subir la rama al repositorio remoto.
+3. Crear un Pull Request desde parcial-grafos-red-transporte hacia main.
+4. Incluir una descripción detallada del trabajo y pantallazos del sistema funcionando.
+5. Realizar el Merge del Pull Request hacia main.
+6. Entregar el enlace del Pull Request.
