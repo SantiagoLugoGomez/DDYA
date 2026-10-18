@@ -5,11 +5,25 @@
 ![Status](https://img.shields.io/badge/status-en%20curso-brightgreen)
 ![License](https://img.shields.io/badge/uso-académico-lightgrey)
 
-Repositorio de talleres y laboratorios del curso **Diseño de Datos y Algoritmos (DDYA)**. Cada carpeta corresponde a una semana del curso e incluye el problema propuesto, el diseño de la solución (requerimientos, historias de usuario, diagramas), el análisis de complejidad y la implementación en Python.
+Repositorio de talleres, laboratorios y parciales del curso **Diseño de Datos y Algoritmos (DDYA)**. Cada entrega documenta el proceso completo de diseño de una solución: problema, requerimientos, historias de usuario, diagramas, análisis de complejidad, implementación en Python y pruebas.
 
-## Contenido
+## Tabla de contenido
 
-| Semana / Módulo | Tema | Notebook |
+- [Sobre el curso](#sobre-el-curso)
+- [Estructura del repositorio](#estructura-del-repositorio)
+- [Temas y estructuras de datos cubiertas](#temas-y-estructuras-de-datos-cubiertas)
+- [Metodología de los laboratorios](#metodología-de-los-laboratorios)
+- [Tecnologías](#tecnologías)
+- [Cómo explorar el repositorio](#cómo-explorar-el-repositorio)
+- [Autores](#autores)
+
+## Sobre el curso
+
+DDYA aborda el diseño de algoritmos y la selección de estructuras de datos adecuadas para resolver problemas reales, con énfasis en análisis de complejidad (Big-O), buenas prácticas de diseño de software y validación mediante pruebas.
+
+## Estructura del repositorio
+
+| Entrega | Tema | Notebook / archivo principal |
 | --- | --- | --- |
 | [Semana 1](./Semana%201) | Ejercicio diagnóstico (números, paridad, Fibonacci) | [`#Santiago Lugo ejercicio diagnostico.py`](<./Semana 1/#Santiago Lugo ejercicio diagnostico.py>) |
 | [Semana 2](./Semana2) | Ordenamiento — Insertion Sort para organización de precios | [`Laboratorio_Semana_2_Extasys_code ..ipynb`](<./Semana2/Laboratorio_Semana_2_Extasys_code ..ipynb>) |
@@ -18,6 +32,17 @@ Repositorio de talleres y laboratorios del curso **Diseño de Datos y Algoritmos
 | [Laboratorio de estructuras lineales](<./Laboratorio de estructuras lineales>) | Sistema de atención de tienda con colas y pilas (FIFO/LIFO) | [`Laboratorio_de_estructuras_lineales.ipynb`](<./Laboratorio de estructuras lineales/Laboratorio_de_estructuras_lineales.ipynb>) |
 | [dev-pr-dynamic](./dev-pr-dynamic) | Programación dinámica — crecimiento de suscriptores (memoización) | [`apps_suscriptores.ipynb`](./dev-pr-dynamic/apps_suscriptores.ipynb) |
 | [Semana 8](./Semana-8) | Árboles binarios — BST y AVL para organización de códigos de productos | [`Arboles-binarios (Extasys code).ipynb`](<./Semana-8/Arboles-binarios (Extasys code).ipynb>) |
+| [Semana 9](./Semana-9) | Grafos — recorridos BFS y DFS sobre una red de centros | [`Grafos(Estasys code).ipynb`](<./Semana-9/Grafos(Estasys code).ipynb>) |
+| [Parcial — Red de transporte](./parcial-grafos-red-transporte) | Parcial práctico: modelado de una red de transporte urbano con grafos, BFS y DFS (con Alejandro Peña) | [`Parcial_Grafos_Red_Transporte_...ipynb`](<./parcial-grafos-red-transporte/Parcial_Grafos_Red_Transporte_Santiago_Lugo_Gomez_y_Alejandro_Peña_().ipynb>) |
+
+## Temas y estructuras de datos cubiertas
+
+- **Fundamentos:** condicionales, recursividad (Fibonacci).
+- **Ordenamiento y búsqueda:** Insertion Sort, búsqueda sobre arreglos ordenados.
+- **Estructuras lineales:** colas (FIFO) y pilas (LIFO).
+- **Programación dinámica:** memoización, cambio de monedas, modelos de crecimiento recursivo.
+- **Árboles:** árboles binarios de búsqueda (BST) y balanceo con AVL.
+- **Grafos:** representación de redes y recorridos BFS/DFS.
 
 ## Metodología de los laboratorios
 
@@ -46,6 +71,8 @@ jupyter notebook
 
 Cada notebook puede abrirse y ejecutarse de forma independiente; no requieren dependencias externas más allá de la librería estándar de Python.
 
-## Autor
+## Autores
 
 **Santiago Lugo Gómez**
+
+Colaboración en el parcial de grafos (red de transporte): **Alejandro Peña**.
