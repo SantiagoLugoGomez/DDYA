@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="DDYA — Diseño de Datos y Algoritmos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#132a5e"/>
+      <stop offset="1" stop-color="#2a2370"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#dots)"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="80" y="92" font-size="15" font-weight="600" letter-spacing="4" fill="#7dd3fc">REPOSITORIO ACADÉMICO</text>
+    <text x="76" y="182" font-size="92" font-weight="800" letter-spacing="2" fill="#ffffff">DDYA</text>
+    <rect x="80" y="202" width="120" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="80" y="246" font-size="32" font-weight="600" fill="#e2e8f0">Diseño de Datos y Algoritmos</text>
+    <text x="80" y="280" font-size="18" fill="#94a3b8">Laboratorios · Talleres · Parciales  —  Python &amp; Jupyter</text>
+  </g>
+
+  <g stroke="#60a5fa" stroke-opacity="0.55" stroke-width="2" fill="none">
+    <line x1="990" y1="74" x2="870" y2="152"/>
+    <line x1="990" y1="74" x2="1110" y2="152"/>
+    <line x1="870" y1="152" x2="810" y2="236"/>
+    <line x1="870" y1="152" x2="930" y2="236"/>
+    <line x1="1110" y1="152" x2="1050" y2="236"/>
+    <line x1="1110" y1="152" x2="1170" y2="236"/>
+    <path d="M930 236 Q990 286 1050 236" stroke="#a5b4fc" stroke-dasharray="6 6"/>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">
+    <g fill="#1e3a8a" stroke="#7dd3fc" stroke-width="2">
+      <circle cx="990" cy="74" r="24"/>
+      <circle cx="870" cy="152" r="24"/>
+      <circle cx="1110" cy="152" r="24"/>
+      <circle cx="810" cy="236" r="24"/>
+      <circle cx="930" cy="236" r="24"/>
+      <circle cx="1050" cy="236" r="24"/>
+      <circle cx="1170" cy="236" r="24"/>
+    </g>
+    <text x="990" y="79">50</text>
+    <text x="870" y="157">30</text>
+    <text x="1110" y="157">70</text>
+    <text x="810" y="241">20</text>
+    <text x="930" y="241">40</text>
+    <text x="1050" y="241">60</text>
+    <text x="1170" y="241">80</text>
+  </g>
+</svg>
