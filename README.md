@@ -1,21 +1,26 @@
-# DDYA — Diseño de Datos y Algoritmos
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/status-en%20curso-brightgreen)
-![License](https://img.shields.io/badge/uso-académico-lightgrey)
+<img src="./assets/banner.svg" alt="DDYA — Diseño de Datos y Algoritmos" width="100%">
 
-Repositorio de talleres, laboratorios y parciales del curso **Diseño de Datos y Algoritmos (DDYA)**. Cada entrega documenta el proceso completo de diseño de una solución: problema, requerimientos, historias de usuario, diagramas, análisis de complejidad, implementación en Python y pruebas.
+<p></p>
 
-## Tabla de contenido
+<img alt="Python" src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+<img alt="Estado: en curso" src="https://img.shields.io/badge/Estado-En%20curso-2ea44f?style=for-the-badge">
+<img alt="Uso académico" src="https://img.shields.io/badge/Uso-Acad%C3%A9mico-6e7781?style=for-the-badge">
 
-- [Sobre el curso](#sobre-el-curso)
-- [Estructura del repositorio](#estructura-del-repositorio)
-- [Temas y estructuras de datos cubiertas](#temas-y-estructuras-de-datos-cubiertas)
-- [Metodología de los laboratorios](#metodología-de-los-laboratorios)
-- [Tecnologías](#tecnologías)
-- [Cómo explorar el repositorio](#cómo-explorar-el-repositorio)
-- [Autores](#autores)
+**Talleres, laboratorios y parciales del curso Diseño de Datos y Algoritmos.**<br>
+<sub>Del problema al código: requerimientos · diagramas · análisis de complejidad · implementación · pruebas</sub>
+
+[**Entregas**](#estructura-del-repositorio) &nbsp;·&nbsp;
+[**Temas**](#temas-y-estructuras-de-datos-cubiertas) &nbsp;·&nbsp;
+[**Metodología**](#metodología-de-los-laboratorios) &nbsp;·&nbsp;
+[**Cómo explorar**](#cómo-explorar-el-repositorio) &nbsp;·&nbsp;
+[**Autores**](#autores)
+
+</div>
+
+---
 
 ## Sobre el curso
 
@@ -34,6 +39,7 @@ DDYA aborda el diseño de algoritmos y la selección de estructuras de datos ade
 | [Semana 8](./Semana-8) | Árboles binarios — BST y AVL para organización de códigos de productos | [`Arboles-binarios (Extasys code).ipynb`](<./Semana-8/Arboles-binarios (Extasys code).ipynb>) |
 | [Semana 9](./Semana-9) | Grafos — recorridos BFS y DFS sobre una red de centros | [`Grafos(Estasys code).ipynb`](<./Semana-9/Grafos(Estasys code).ipynb>) |
 | [Parcial — Red de transporte](./parcial-grafos-red-transporte) | Parcial práctico: modelado de una red de transporte urbano con grafos, BFS y DFS (con Alejandro Peña) | [`Parcial_Grafos_Red_Transporte_...ipynb`](<./parcial-grafos-red-transporte/Parcial_Grafos_Red_Transporte_Santiago_Lugo_Gomez_y_Alejandro_Peña_().ipynb>) |
+| [Laboratorio TDA](<./Laboratorio TDA>) | Heap y cola de prioridad — gestión de tareas de un centro de cómputo con Max-Heap | [`Laboratorio-Heap y Cola de Prioridad.ipynb`](<./Laboratorio TDA/Laboratorio-Heap y Cola de Prioridad.ipynb>) |
 
 ## Temas y estructuras de datos cubiertas
 
@@ -42,6 +48,7 @@ DDYA aborda el diseño de algoritmos y la selección de estructuras de datos ade
 - **Estructuras lineales:** colas (FIFO) y pilas (LIFO).
 - **Programación dinámica:** memoización, cambio de monedas, modelos de crecimiento recursivo.
 - **Árboles:** árboles binarios de búsqueda (BST) y balanceo con AVL.
+- **Heaps y colas de prioridad:** Max-Heap sobre arreglo, MAX-HEAPIFY y BUILD-MAX-HEAP.
 - **Grafos:** representación de redes y recorridos BFS/DFS.
 
 ## Metodología de los laboratorios
