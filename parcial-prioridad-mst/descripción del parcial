@@ -1,0 +1,33 @@
+Contexto: Una empresa debe administrar tareas técnicas según su prioridad y conectar varios dispositivos
+utilizando la menor cantidad total de cable. 
+Los 5 puntos del examen son:
+
+1)Cola de prioridad: donde tenemos seis tareas y nos toca mostrar:el arreglo inicial,el Max-Heap resultante y el árbol correspondiente al Heap.
+  
+2)Procesar tareas: Implemente EXTRACT-MAX y procese las dos tareas de mayor prioridad. Después de cada extracción muestre la
+tarea procesada y el Heap resultante.
+EXTRACT-MAX
+Posteriormente agregue la siguiente tarea y mantenga la propiedad del Max-Heap:
+T07 - Falla en sistema contra incendios - Prioridad 12
+Muestre el Heap después de la inserción. No se permite utilizar heapq.
+  
+3) Dispositivos a conectar: Tenemos seis dispositivos, cada uno cuenta con su ID, posición X y posición Y. Nos toca realizar lo siguiente:Genere una representación gráfica con la posición de los seis dispositivos,calcule automáticamente la distancia entre cada pareja de dispositivos.
+distancia = sqrt((x2 - x1)^2 + (y2 - y1)^2) y cada conexión será una arista y su distancia será el peso.
+  
+4) Arbol de expansión minima: Nos toca implementar el algoritmo de Kruskal de forma manual para conectar los seis dispositivos.
+-Ordene las aristas por peso.
+-Seleccione las conexiones de menor costo.
+-Evite ciclos.
+-Deténgase cuando los seis dispositivos estén conectados.
+Muestre las conexiones seleccionadas y la longitud total de cable:
+A - B : 5.10
+B - C : ...
+...
+Longitud total de cable: XX.XX
+El MST deberá contener exactamente 5 conexiones. No se permite utilizar funciones de librerías que calculen
+directamente el MST.
+5) Visualización final : Generamos una grafica final que muestre lo siguiente:
+-Los seis dispositivos
+-Unicamente las conexiones de MST
+-El peso de cada conexión
+- La longitud de cable total utilizada
